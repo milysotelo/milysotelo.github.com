@@ -45,12 +45,9 @@ a:hover{
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 4px;
 	position: relative;
+	padding: 1em;
 	overflow: scroll;
 }
-
-.content{
-	padding: 1em;
-	}
 
 td{
 	display: block;
@@ -98,20 +95,17 @@ th{
 
 .table{
 	width: 100%;
-	border-spacing: 0;
+	border-spacing: 0px;
 }
 
-.table th{
+.table th, .table td{
 	padding: 1em;
 	text-align: center;
 }
 
-.table td{
-	padding: 1em;
-	text-align: center;
-}
-
-.table tr:nth-child(even){background-color: #FFADAC} /*pares*/
+.table tr:nth-child(even){
+	background-color: #FFADAC
+} /*pares*/
 
 .title-item{
 	/*border-bottom-style: solid;
@@ -159,8 +153,9 @@ th{
 		font-size: 1em; 
 	}
 
-	.concent{
+	.content{
 		padding: 1.8em;
+		overflow: auto;
 	}
 }
 

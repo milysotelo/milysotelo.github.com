@@ -19,7 +19,11 @@ links.forEach(function(link){
 		content.classList.add("fadeOutUp");
 		content.classList.add("animated");
 
-		window.location.href = '../';
+
+		setTimeout(function(){
+			location.href = '../index.html';
+		},600);
+		//window.location.href = '../';
 
 		return false;
 	});

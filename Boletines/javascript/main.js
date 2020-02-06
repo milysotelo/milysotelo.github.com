@@ -21,7 +21,7 @@ links.forEach(function(link){
 
 
 		setTimeout(function(){
-			location.href = '../index.html';
+			location.href = '/Boletines';
 		},600);
 		//window.location.href = '../';
 
